@@ -48,30 +48,6 @@ This project uses Vagrant to automate VM provisioning with the following configu
 vagrant init eurolinux-vagrant/centos-stream-9
 ```
 
-### 2⃣ Start the Virtual Machine:
-```bash
-vagrant up
-```
-
-### 3⃣ Check VM Status:
-```bash
-vagrant status
-```
-
-### 4⃣ SSH into the VM:
-```bash
-vagrant ssh
-```
-
-### 5⃣ Check Network Configuration:
-```bash
-ip addr show
-``` 
-
-### 6⃣ Exit the VM:
-```bash
-exit
-``` 
 
 
 ## 🐾 Vagrant Setup 🖥️
@@ -118,6 +94,32 @@ Vagrant.configure("2") do |config|
 end
 
 ```
+
+### 2⃣ Start the Virtual Machine:
+```bash
+vagrant up
+```
+
+### 3⃣ Check VM Status:
+```bash
+vagrant status
+```
+
+### 4⃣ SSH into the VM:
+```bash
+vagrant ssh
+```
+
+### 5⃣ Check Network Configuration:
+```bash
+ip addr show
+``` 
+
+### 6⃣ Exit the VM:
+```bash
+exit
+``` 
+
 ### 🧹 Cleaning Up Resources
 
 To remove the VM and free up system resources, run the following commands in order:
